@@ -24,16 +24,6 @@
     });
 
 
-	$('.more-info').hover(function(){
-		$(this).find('img').attr("src", "images/mas_hover.png");
-		$(this).css("cursor", "pointer");
-		$(this).css("box-shadow", "0px 1px 2px 0px rgba(50, 50, 50, 0.5)");
-	},function(){
-		$(this).find('img').attr("src", "images/mas.png");
-		$(this).css("box-shadow", "0px 3px 10px 0px rgba(50, 50, 50, 0.5)");
-	});
-
-
 /* Cambiar de color cuando pasas por su posicion */
 	
 	/*posicion de la barra de navegacion al principio*/

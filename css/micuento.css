@@ -72,6 +72,13 @@ height: 600px;
 
 }
 
+.transition {
+  opacity :0.6;
+  -webkit-transform: scale(1.2);
+     -moz-transform: scale(1.2);
+       -o-transform: scale(1.2);
+          transform: scale(1.2);
+}
 
 
 .divmedia-object{
@@ -125,13 +132,7 @@ height: 600px;
 
 }
 
-.transition {
-	opacity :0.6;
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-}
+
 
 .media-heading{
 
@@ -199,6 +200,38 @@ height: 600px;
 
 }
 
+/*trabajos*/
+
+.trabajos{
+  width: auto;
+}
+
+.trabajosimg {
+    background-color:rgba(0, 173, 208, 0.6);  
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 40px;
+    margin-top:200px;
+
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+}
+
+.trabajosimg:hover {
+  margin-top: 0px;
+}
+
+.ent-trabajo{
+overflow: hidden;
+padding-top: 15px;
+margin-bottom: 25px;
+
+}
 
 /*nosotros*/
 
@@ -240,7 +273,7 @@ padding-bottom: 15px;
   text-decoration: none;
 }
 
-.localizador > #label{
+#label{
     color: #aaa;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
