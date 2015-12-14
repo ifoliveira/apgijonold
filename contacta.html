@@ -30,10 +30,10 @@
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li><a href="index.html">Inicio</a></li>
-              <li class="active"><a href="#">Nosotros</a></li>
+              <li><a href="nosotros.html">Nosotros</a></li>
               <li><a href="trabajos.html">Trabajos</a></li>
               <li><a href="donde.html">Donde estamos</a></li>
-              <li><a href="contacta.html">Contacta</a></li>
+              <li class="active"><a href="#">Contacta</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -42,49 +42,52 @@
     <div class="container">
         <div class="localizador col-md-12">
             <div class="row">
-               <span id="label">Estamos aquí:&nbsp;&nbsp;&nbsp;</span><a href="index.html">Inicio</a>&nbsp; >&nbsp;<span>Nosotros</span>
+               <span id="label">Estamos aquí:&nbsp;&nbsp;&nbsp;</span><a href="index.html">Inicio</a>&nbsp; >&nbsp;   <span>Contacta</span>
              </div>
         </div>  
     </div>
-    <div class="contenido">
-        <div class="container">
-          <h4 class="media-heading  cab-nosotros">&iquest;Quienes somos?</h4>   
+    <div class="container">
+        <div class="row col-md-12">
+          <h4 class="media-heading  cab-nosotros">Contacta</h4>   
         </div>
-        <div class="container">             
-          <div class="col-md-12 txt-nosotros">
-              <p>Somos un comercio dedicado a las reformas del hogar, y tenemos m&aacute;s de 23 a&ntilde;os de experiencia en el sector. Especializados en reformas de ba&ntilde;os, acumulamos casi mil proyectos con una alta satisfacci&oacute;n en nuestros clientes.</p>
-              <p>Estamos situados en la Av. Schultz N&deg; 28 en Gij&oacute;n, en nuestro local seguimos apostando por un trato personalizado, que nos ayuda a entender mejor sus necesidades.</p>
+
+        <div class="row col-md-12">
+        <p style="text-align: justify; padding-top:20px">
+                       A trav&eacute;s de este formulario puedes ponerte en contacto con nostros. Preguntas, suguerencias, comentarios, m&aacute;ndanos lo que quieras
+                       y nos pondremos en contacto contigo a la mayor brevedad posible. 
+                   <br><br>
+                   Tambi&eacute;n puedes encontrarnos en:                                        </p>
+                     <address >
+                             <strong>Azulejos y Pavimentos Gij&oacute;n</strong><br>
+                             Avenida de Schultz  N&deg; 28 Bajo<br>
+                             Gij&oacute;n, 33208<br>
+                             <abbr title="Tel&eacute;fono">Tel:</abbr> 985 391 326 <br>
+                              <abbr title="Email">Mail:</abbr> consultas@apgijon.es
+                     </address>
+
+         </div>
+         <div class=" row col-md-12 contact-form">
+            <form id="contact" method="post" class="form" role="form" action="mailer.php">
+
+                <div class="form-group">
+                    <input class="form-control nombre" id="inputName" name="inputName" placeholder="Nombre" type="text" required />
+                </div>
+                <div class=" form-group">
+                 <input class="form-control email" id="inputEmail" name="inputEmail" placeholder="Email" type="email" required />
+                </div>
+                <div class=" form-group">
+                <textarea class="form-control mensaje" id="inputMessage" name="inputMessage" placeholder="Mensaje" rows="10"></textarea>
+                <br />
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 form-group">
+                     <button class="btn btn-primary pull-right" type="submit">Enviar</button>
+                    </div>
+                 
+                </div>
+             </form>
+
           </div>
-        </div>
-        <div class="container">
-          <h4 class="media-heading cab-nosotros">Experiencia y profesionalidad</h4>          
-        </div>
-        <div class="container">
-          <div class="col-md-12 txt-nosotros" >
-              <p>M&aacute;s de 23 a&ntilde;os en el sector de las reformas del ba&ntilde;o nos proporciona una experiencia muy amplia, tanto para orientar las necesidades de nuestros clientes, 
-                  como para resolver cualquier duda o problema que pudiera surgir a la hora de planificar y desarrollar el trabajo.</p><p> Tanto el personal de atención en nuestra tienda de la Av de Schultz en Gij&oacute;n, como las personas que realizan los proyectos, son profesionales muy preparados y con amplia experiencia en el sector.</p>
-          </div>  
-        </div>
-        <div class="container">
-          <h4 class="media-heading cab-nosotros">Atenci&oacute;n al cliente</h4>          
-        </div>
-        <div class="container">
-          <div class="col-md-12 txt-nosotros">
-              <p>El trato personal y cercano, hace que la atenci&oacute;n al cliente sea uno de nuestros puntos m&aacute;s fuertes.</p><p>Las reformas del hogar son un asunto importante y en el que todo el mundo necesita la confianza plena, y no solo en tener un final satisfactor&iacute;o, sino en la predisposicón a que todo el mundo se vuelque en solucionar cualquier problema que surga a lo largo de la obra.</p><p> 
-              Ambas cosas son nuestro &uacute;nico objetivo cuando empezamos a trabajar, un cliente satisfecho
-              es nuestra mejor publicidad.</p>
-          </div> 
-        </div>
-        <div class="container">
-          <h4 class="media-heading cab-nosotros">Proveedores, &iquest;Qu&eacute; vendemos?</h4>
-        </div>
-        <div class="container">
-          <div class="col-md-12 txt-nosotros" >
-              <p>Todos los proveedores que nos suministran son de nuestra total confianza.</p><p> Gracias a la larga experiencia podemos asegurar que la calidad de los materiales que ofrecemos es alta, y que nuestros proveedores tambi&eacute;n est&aacute;n en siton&iacute;a con nuestra filosof&iacute;a de 
-                  la calidad en la atenci&oacute;n al cliente. </p><p>La mayor&iacute;a de nuestros proveedores tiene las f&aacute;bricas en Espa&ntilde;a lo que hace que su respuesta se lo m&aacute;s r&aacute;pida posible.</p>
-          </div>           
-        </div>
-        </div>
     </div>
     <!-- Footer -->    
  <footer > 

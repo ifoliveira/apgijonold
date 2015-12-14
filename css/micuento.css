@@ -279,3 +279,15 @@ padding-bottom: 15px;
     font-weight: 400;
     font-size: 14px;
 }
+
+/* formulario contacto */
+
+.contact-form {
+	background-color: #C2DFBD;
+    margin-bottom: 25px;
+
+}
+
+.form-group , .form-control{
+	margin: 20px 5px 5px 5px;
+}
