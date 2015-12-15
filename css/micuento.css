@@ -171,7 +171,7 @@ height: 600px;
   margin-top: 30px;
 }
 
-.colpiefin > img{
+.colpiefin img{
   
   width: 130px; 
   padding-top: 10px;
@@ -250,8 +250,8 @@ padding-bottom: 15px;
 
 .localizador{
 
-  height: 100px;
-  padding-top: 65px;
+  height: 155px;
+  padding-top: 120px;
   border-bottom: 1px solid #ddd;
 }
 
@@ -290,4 +290,14 @@ padding-bottom: 15px;
 
 .form-group , .form-control{
 	margin: 20px 5px 5px 5px;
+}
+
+
+/* imagen logo */ 
+
+.imglogo{
+   box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.5);
+   height:80px;
+   background-color:#82BF78;
+   margin-left: 15px;
 }
